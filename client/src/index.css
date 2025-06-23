@@ -1,0 +1,21 @@
+/* Fuente primero (regla @import al inicio) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Luego el resto de tus estilos */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css o tailwind.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  overflow: auto; /* ✅ solo oculta el scroll horizontal */
+}
+
+html {
+  scroll-behavior: smooth;
+}
