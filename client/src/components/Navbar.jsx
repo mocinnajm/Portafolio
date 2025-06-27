@@ -3,24 +3,23 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow sticky top-0 z-50">
-      <div className="max-w-5xl mx-auto px-4">
-        <ul className="flex flex-wrap justify-center items-center gap-6 py-4 text-blue-700 font-medium text-sm md:text-base">
-
+    <nav className="bg-white shadow fixed left-0 top-0 h-full w-48 z-50">
+      <div className="p-4">
+        <ul className="flex flex-col gap-4 py-4 text-blue-700 font-medium text-sm md:text-base">
           <li>
-            <a href="#hero" className="hover:text-blue-500">Inicio</a>
+            <a href="#hero" className="block hover:text-blue-500 p-2 hover:bg-blue-50 rounded">Inicio</a>
           </li>
           <li>
-            <a href="#about" className="hover:text-blue-500">Sobre</a>
+            <a href="#about" className="block hover:text-blue-500 p-2 hover:bg-blue-50 rounded">Sobre</a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-blue-500">Proyectos</a>
+            <a href="#projects" className="block hover:text-blue-500 p-2 hover:bg-blue-50 rounded">Proyectos</a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-blue-500">Contacto</a>
+            <a href="#contact" className="block hover:text-blue-500 p-2 hover:bg-blue-50 rounded">Contacto</a>
           </li>
           <li>
-            <a href="#admin" className="hover:text-blue-500">Admin</a>
+            <a href="#admin" className="block hover:text-blue-500 p-2 hover:bg-blue-50 rounded">Admin</a>
           </li>
         </ul>
       </div>
